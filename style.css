@@ -9,84 +9,91 @@
 
 svg{
   fill: none;
-  stroke: black;
+  stroke: rgba(0, 0, 0, 0.4);
+  animation: anim-fill 2s  ease forwards 5s;
 }
 
 
 #name path:nth-child(1){
   stroke-dasharray: 381px;
   stroke-dashoffset: 381px;
-  animation: anim-line ease forwards 3s;
+  animation: anim-line 2s  ease forwards .3s;
 }  
 #name path:nth-child(2){
   stroke-dasharray: 273px;
   stroke-dashoffset: 273px;
-  animation: anim-line ease forwards 3s;
+  animation: anim-line 2s ease forwards .6s;
 }  
 #name path:nth-child(3){
   stroke-dasharray: 360px;
   stroke-dashoffset: 360px;
-  animation: anim-line ease forwards 3s;
+  animation: anim-line 2s ease forwards .9s;
 }  
 #name path:nth-child(4){
   stroke-dasharray: 160px;
   stroke-dashoffset: 160px;
-  animation: anim-line ease forwards 3s;
+  animation: anim-line 2s ease forwards 1.2s;
 }  
 #name path:nth-child(5){
   stroke-dasharray: 145px;
   stroke-dashoffset: 145px;
-  animation: anim-line ease forwards 3s;
+  animation: anim-line 2s ease forwards 1.5s;
 }  
 #name path:nth-child(6){
   stroke-dasharray: 145px;
   stroke-dashoffset: 145px;
-  animation: anim-line ease forwards 3s;
+  animation: anim-line 2s ease forwards 1.8s;
 }  
 #name path:nth-child(7){
   stroke-dasharray: 359px;
   stroke-dashoffset: 359px;
-  animation: anim-line ease forwards 3s;
+  animation: anim-line 2s ease forwards 2.1s;
 }  
 #name path:nth-child(8){
   stroke-dasharray: 283px;
   stroke-dashoffset: 283px;
-  animation: anim-line ease forwards 3s;
+  animation: anim-line 2s ease forwards 2.4s;
 }  
 #name path:nth-child(9){
   stroke-dasharray: 220px;
   stroke-dashoffset: 220px;
-  animation: anim-line ease forwards 3s;
+  animation: anim-line 2s ease forwards 2.7s;
 }  
 #name path:nth-child(10){
   stroke-dasharray: 270px;
   stroke-dashoffset: 270px;
-  animation: anim-line ease forwards 3s;
+  animation: anim-line 2s ease forwards 3s;
 }  
 #name path:nth-child(11){
   stroke-dasharray: 145px;
   stroke-dashoffset: 145px;
-  animation: anim-line ease forwards 3s;
+  animation: anim-line 2s ease forwards 3.3s;
 }  
 #name path:nth-child(12){
   stroke-dasharray: 273px;
   stroke-dashoffset: 273px;
-  animation: anim-line ease forwards 3s;
+  animation: anim-line 2s ease forwards 3.6s;
 }  
 #name path:nth-child(13){
   stroke-dasharray: 360px;
   stroke-dashoffset: 360px;
-  animation: anim-line ease forwards 3s;
+  animation: anim-line 2s ease forwards 3.9s;
 }  
 #name path:nth-child(14){
   stroke-dasharray: 322px;
   stroke-dashoffset: 322px;
-  animation: anim-line ease forwards 3s;
+  animation: anim-line 2s ease forwards 4.2s;
   
 } 
 
 @keyframes anim-line{
   to{
     stroke-dashoffset: 0;
+  }
+}
+
+@keyframes anim-fill{
+  to{
+    fill:rgba(0, 0, 0, 1);
   }
 }
